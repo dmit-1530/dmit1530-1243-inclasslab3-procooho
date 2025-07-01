@@ -23,6 +23,9 @@ body {
 h1 {
     font-size: 1.65rem;
     font-weight: normal;
+    margin-bottom: 2rem;
+    font-weight: 700;
+    font-size: 3rem;
 }
 
 /* Header Styles */
@@ -34,5 +37,52 @@ header {
     padding: 0.5rem;
 }
 
-/* Media Query */
+ul,
+li,
+a {
+    margin: 0;
+    padding: 0;
+}
 
+ul svg {
+    width: 2.5rem;
+    margin-right: 0.5rem;
+}
+
+li {
+    position: relative;
+}
+
+.number {
+    position: absolute;
+    background-color: rgb(195, 0, 0);
+    border: 1px solid rgb(195, 0, 0);
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0.5rem;
+    left: 2.5rem;
+}
+
+ul p {
+    text-align: center;
+    font-size: 0.8rem;
+    color: white;
+    font-size: 1rem;
+}
+
+ul a {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+/* Media Query */
