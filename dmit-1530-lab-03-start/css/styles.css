@@ -84,9 +84,8 @@ header {
 }
 
 .header ul a:hover {
-    background-color: var(--accent);
-    color: var(--slate-50);
-    fill: var(--slate-50);
+    color: var(--accent);
+    fill: var(--accent);
 }
 
 /* Media Query */
