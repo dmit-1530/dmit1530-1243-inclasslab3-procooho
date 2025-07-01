@@ -55,8 +55,8 @@ li {
 
 .number {
     position: absolute;
-    background-color: rgb(195, 0, 0);
-    border: 1px solid rgb(195, 0, 0);
+    background-color: var(--rose-700);
+    border: 1px solid var(--rose-700);
     height: 1.5rem;
     width: 1.5rem;
     border-radius: 50%;
@@ -70,7 +70,7 @@ li {
 ul p {
     text-align: center;
     font-size: 0.8rem;
-    color: white;
+    color: var(--slate-50);
     font-size: 1rem;
 }
 
@@ -84,9 +84,9 @@ ul a {
 }
 
 ul a:hover {
-    background-color: #0e7490;
-    color: white;
-    fill: white;
+    background-color: var(--accent);
+    color: var(--slate-50);
+    fill: var(--slate-50);
 }
 
 /* Media Query */
